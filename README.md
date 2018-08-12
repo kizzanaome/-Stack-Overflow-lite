@@ -13,7 +13,7 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 
 
 # To view the project demo pages
-https://kizzanaome.github.io/Stack-Overflow-lite/UI/templates/index.html
+https://kizzanaome.github.io/Stack-Overflow-lite/
 
 
 # Technologies used.
