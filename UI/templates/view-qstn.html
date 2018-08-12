@@ -1,0 +1,73 @@
+<html>
+<head>
+        <link href="../static/css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+            <div id="nav">
+                    <div class="logo"><h1>STACK-OVERFLOW LITE</h1></div>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="login.html">logout</a></li>
+                    </ul>
+            </div>
+    
+
+</nav>
+</header>
+<main>
+
+<div id="viewans">
+    <h3>Asked Question</h3>
+    
+     <div>
+        <h3>Google app engine with React and Node: Production setup?</h3>
+        <h4>
+                I'm trying to follow the Flask-SQLAlchemy quickstart guide (http://flask-sqlalchemy.pocoo.org/2.3/quickstart/). When I perform any database operation such as db.create_all(), I get the error sqlalchemy.exc.OperationalError: (_mysql_exceptions.OperationalError) (2059, 
+                "Authentication plugin 'caching_sha2_password' cannot be loaded: The specified module could not be found.\r\n")</h4>
+        
+      </div>
+      
+                            
+    <div class="replyone">
+                <label>Wasswa Joel</label>
+                              <h4>This is not "the solution", but for the hapless googlers this is what I did - I uninstalled python 3.7 and reverted to python 3.6, in order to use MySQL's official python connector. I installed pymysql and changed the URI 
+                                  in my config to mysql+pymysql:// etc. This seems to have left me with a functioning app. </h4>
+                              <button id="one" onclick="upvote('one');">Up vote</button>
+                              <button id="two" onclick="downvote('two');">Down Vote</button>
+                              <button onclick="reply();">Comment</button>
+                                 
+    </div>
+    <div class="replytwo"> 
+                            
+                <label>Kato Joshua</label>
+                                    <h4>If you're using a custom domain with Google-managed SSL certificates, you should be able to issue HTTPS requests to your production app automatically, without dealing with any SSL keys yourself. Given that you're seeing 404's in the logs, it looks like the requests
+                                         are reaching your application alright, but not being routed to the desired handler code. </h4>
+                                    <button onclick="upvote('one');">Up vote</button>
+                                    <button onclick="downvote('two');">Down Vote</button>
+                                    <button onclick="reply()">Comment</button>
+
+    </div>
+    <div class="ans">
+            <h3>Type your answer here</h3>
+
+            <form id="answer">
+
+                    <div class="form-group"><textarea rows="7"></textarea></div>
+                    <div class="form-group"><button type="submit" class="btn">answer</button></div>
+            
+                </form>
+
+    </div>
+     
+                
+</div>
+
+</main>
+<footer></footer>
+<script src="../static/js/script.js"></script>
+
+</body>
+</html>
