@@ -11,15 +11,12 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
  - Users can accept an answer out of all the answers to his/her question as the preferred  answer.  
 
 
-
-# To view the project demo pages
-https://kizzanaome.github.io/Stack-Overflow-lite/
-
-
 # Technologies used.
 -HTML5
 -CSS3
 
+#To view The app Pages click on the link bellow
+https://kizzanaome.github.io/Stack-Overflow-lite/
 
 # Authors
  - KIZZA NAOME
