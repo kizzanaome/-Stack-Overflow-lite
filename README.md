@@ -14,7 +14,7 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 https://kizzanaome.github.io/Stack-Overflow-lite/
 
 # To view the github pages click on the link bellow
-https://kizzanaome.github.io/Stack-Overflow-lite/
+https://github.com/kizzanaome/Stack-Overflow-lite/tree/gh-pages
 
 
 # Technologies used.
