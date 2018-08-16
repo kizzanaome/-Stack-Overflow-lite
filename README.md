@@ -14,6 +14,8 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 
 # To view the project demo pages
 https://kizzanaome.github.io/Stack-Overflow-lite/UI/templates/index.html
+#To view my github pages
+https://github.com/kizzanaome/Stack-Overflow-lite/tree/gh-pages
 
 
 # Technologies used.
@@ -21,5 +23,6 @@ https://kizzanaome.github.io/Stack-Overflow-lite/UI/templates/index.html
 -CSS3
 
 
-# Authors
+
+# Author
  - KIZZA NAOME
