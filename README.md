@@ -9,14 +9,17 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
  - Users can post answers.  .g What time the ride leaves, where it is headed e.t.c
  - Users can view the answers to questions.  
  - Users can accept an answer out of all the answers to his/her question as the preferred  answer.  
+ 
+ # To view The app Pages click on the link bellow
+https://kizzanaome.github.io/Stack-Overflow-lite/
+
+# To view the github pages click on the link bellow
+https://kizzanaome.github.io/Stack-Overflow-lite/
 
 
 # Technologies used.
 -HTML5
 -CSS3
-
-#To view The app Pages click on the link bellow
-https://kizzanaome.github.io/Stack-Overflow-lite/
 
 # Authors
  - KIZZA NAOME
