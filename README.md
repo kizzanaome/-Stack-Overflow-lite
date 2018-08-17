@@ -1,3 +1,7 @@
+[![Coverage Status](https://coveralls.io/repos/github/kizzanaome/Stack-Overflow-lite/badge.svg?branch=develop)](https://coveralls.io/github/kizzanaome/Stack-Overflow-lite?branch=develop)
+
+[![Build Status](https://travis-ci.org/kizzanaome/Stack-Overflow-lite.svg?branch=develop)](https://travis-ci.org/kizzanaome/Stack-Overflow-lite)
+
 # -Stack-Overflow-lite
 
 StackOverflow-lite is a platform where people can ask questions and provide answers.
