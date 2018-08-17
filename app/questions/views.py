@@ -48,7 +48,7 @@ class Answerquestion(Resource):
             if (qstn_id == answer["qstn_id"]):
                 return "Your answer to question with qstn_id {} has been sent succesfully ". format(qstn_id), 201
         return make_response(jsonify(
-            {"message": "The question was not found"
+            {"message": "question was not found"
             }), 404)
 
 
