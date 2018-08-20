@@ -1,7 +1,7 @@
 from flask_restful import Api, abort,Resource
 from flask import Flask
 
-"""we first create an empty question list"""
+"""we first create an empty list"""
 
 question_db = []
 answers =[]
@@ -18,7 +18,7 @@ class Question():
             "qstn_id" : self.qstn_id,
             "title" :self.title,
             "description" : self.description
-        }
+        } 
 
         question_db.append(question)
 
