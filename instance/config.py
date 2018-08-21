@@ -4,11 +4,20 @@ class BaseConfig(object):
     CSRF_ENABLED =True
 
 class DevelopmentConfig(BaseConfig):
+    """development configurations
+       setting Testing to True activates the testing mode of Flask extensions. 
+    """
     DEBUG = True
-   
+     
+
     Testing =True
 
 class ProductionConfig(BaseConfig):
+
+    """
+    Production configurations
+
+    """
 
     DEBUG=False
     Testing =False

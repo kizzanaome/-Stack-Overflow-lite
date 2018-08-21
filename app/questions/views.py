@@ -16,18 +16,22 @@ class View_questions(Resource):
         parser.add_argument("description")
         args = parser.parse_args()
 
+  
+        """auto generating an id"""
+
         if len(question_db) == 0:
             user_id = len(question_db)+1
         else:
             user_id = len(question_db)+1
 
-
+        """class insatnce"""
         question = Question(user_id, args['title'], args['description'])
         question.create_question()
 
         return make_response(jsonify({"massage":"Question has been created"}),201)
 
 class Singlequestion(Resource):
+    """Method for veiwing a single question"""
     def get(self, qstn_id):
         a_qustn = None
         for question in question_db:
@@ -37,6 +41,9 @@ class Singlequestion(Resource):
         return make_response(jsonify({"message":"Question not found"}),404)
 
 class Answerquestion(Resource):
+
+    """This method adds an answer"""
+    
     def post(self, qstn_id):
         parser = reqparse.RequestParser()
         parser.add_argument("reply")
