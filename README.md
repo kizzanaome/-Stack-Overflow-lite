@@ -18,6 +18,9 @@ StackOverflow-lite is a platform where people can ask questions and provide answ
 # To view the project demo pages
 https://kizzanaome.github.io/Stack-Overflow-lite/UI/templates/index.html
 
+# To view the API on Heroku 
+https://naome-stack-overflow-lite.herokuapp.com/api/v1/questions
+
 
 # To view the API on Heroku 
 https://naome-stack-overflow-lite.herokuapp.com/api/v1/questions
